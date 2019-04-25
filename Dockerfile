@@ -1,4 +1,4 @@
-FROM docker-java8:v1
+FROM 192.168.8.225:5000/docker-java8:v1
 
 ARG WORK_PATH="/data/k8s/service"
 MAINTAINER "chuanqi"<chuanqi@outlook.com>
