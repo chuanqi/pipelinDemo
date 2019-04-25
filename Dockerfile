@@ -1,4 +1,4 @@
-FROM springcloudenv:v1
+FROM docker-java8:v1
 
 ARG WORK_PATH="/data/k8s/service"
 MAINTAINER "chuanqi"<chuanqi@outlook.com>
